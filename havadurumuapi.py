@@ -16,7 +16,7 @@ def hava_durumu():
 
     gokyuzuAciklama = havaVerisi['weather'][0]['description']
 
-    # Hava durumu açıklamasını Türkçe'ye çevirme
+    # gökyüzü tiplerini Türkçe'ye çevirme
     gokyuzutipleriEN = ['clear sky', 'few clouds', 'overcast clouds', 'scattered clouds',
                         'broken clouds', 'shower rain', 'rain', 'thunderstorm', 'snow', 'mist']
     gokyuzuTipleriTR = ['Güneşli', 'Az Bulutlu', 'Çok Bulutlu(Kapalı)', 'Alçak Bulutlu', 'Yer Yer Açık Bulutlu',
